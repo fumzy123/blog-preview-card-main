@@ -50,6 +50,9 @@ Users should be able to:
 
 ### What I learned
 
+1. `box-shadow` css property: box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
+   - h-offset
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
