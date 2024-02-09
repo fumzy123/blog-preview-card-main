@@ -3,6 +3,7 @@
   background-color: white;
 
   /* Box Model */
+  max-width: 350px;
   padding: 1rem;
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 15px;
@@ -12,7 +13,8 @@
 }
 
 .blogImageWrapper {
-  width: 250px;
+  width: 100%;
+  min-width: 250px;
   border: 2px solid red;
 }
 
@@ -51,6 +53,15 @@
   font-weight: 900;
 }
 
+.blogTitleLink {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+
+.blogTitleLink:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .blogDescription {
   /* Typography */
   color: hsl(0, 0%, 50%);
@@ -77,4 +88,30 @@
 
 .authorName {
   font-weight: 900;
+  font-size: 0.875rem;
+}
+
+/* Add Responsiveness to Blog Component
+    - Increase Typography
+*/
+@media (min-width: 475px) {
+  .blogTag {
+    font-size: 1rem;
+  }
+
+  .blogPubDate {
+    font-size: 1rem;
+  }
+
+  .blogTitle {
+    font-size: 1.5rem;
+  }
+
+  .blogDescription {
+    font-size: 1rem;
+  }
+
+  .authorName {
+    font-size: 1rem;
+  }
 }

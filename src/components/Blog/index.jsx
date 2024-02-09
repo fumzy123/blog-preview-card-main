@@ -18,7 +18,11 @@ function Blog() {
 
       <p className={styles.blogTag}>Learning</p>
       <p className={styles.blogPubDate}>Published 21 Dec 2023</p>
-      <h3 className={styles.blogTitle}>HTML & CSS foundations</h3>
+      <h3 className={styles.blogTitle}>
+        <a href="/" className={styles.blogTitleLink}>
+          HTML & CSS foundations
+        </a>
+      </h3>
       <p className={styles.blogDescription}>
         These languages are the backbone of every website, defining
         structure, content, and presentation
