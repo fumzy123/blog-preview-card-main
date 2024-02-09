@@ -57,7 +57,7 @@ Users should be able to:
 
 2. Wanted the Blog tag `learning` to look like a button but not have full-width: Used an inline-block for blog tag `learning`. When do I use inline-block.
 
-3. Setting margins and paddings with `em` unit proved useful for when I add media queries for responsiveness. It keeps the spacing consistent no matter the size of the font.
+3. Setting margins and paddings with `em` unit proved useful for when I add media queries for responsiveness. It keeps the spacing consistent no matter the size of the text.
 
 4. Made use of a flexbox to align Author's Image and Name.
 
